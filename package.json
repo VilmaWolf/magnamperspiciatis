@@ -1,0 +1,24 @@
+{
+  "name": "magnamperspiciatis",
+  "version": "1.0.0",
+  "description": "A simple framework for building modern Ethereum dApps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VilmaWolf/magnamperspiciatis.git"
+  },
+  "author": "RosendoWolff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VilmaWolf/magnamperspiciatis.git/issues"
+  },
+  "homepage": "https://github.com/VilmaWolf/magnamperspiciatis.git",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1",
+    "rimraf": "^3.0.2",
+    "tsdx": "^0.14.1",
+    "vue": "^3.2.41"
+  }
+}
